@@ -1,0 +1,1289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+body .linck-whatsapp {
+    width: 150px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+body .linck-whatsapp:hover {
+    width: 130px;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 3px solid rgb(211, 173, 6);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    gap: 40px;
+
+}
+
+header button {
+    background-color: rgb(247, 247, 247);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+header button:hover {
+    border: 1px solid black;
+    border: 3px solid black;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header h1 {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header img {
+    width: 100px;
+}
+
+header .cart {
+    width: 40px;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    border: 3px solid rgb(155, 155, 155);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+nav button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav button:hover {
+    color: rgb(211, 173, 6);
+}
+
+
+
+
+section.banners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0 30px;
+    height: 200px;
+    gap: 10px;
+}
+
+section.banners p {
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+section.banners img {
+    border: 1px solid rgb(0, 8, 3);
+    width: 100%;
+    height: 260px;
+}
+
+
+
+
+
+/*clock*/
+
+section.products-clock {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 5px solid black;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(90deg, rgba(0, 9, 3, 0.7847514005602241) 0%, rgba(0, 6, 2, 0.6839110644257703) 50%, rgba(0, 0, 0, 0.6951155462184874) 100%);
+}
+
+section.products-clock .ul-ouro {
+    margin: 40px 40px 40px;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-clock .ul-ouro li {
+    border: 2px solid rgb(211, 173, 6);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+section.products-clock img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.products-clock img:hover {
+    transform: scale(2.1);
+}
+
+section.products-clock .ul-prata {
+    gap: 20px;
+    margin: 40px 40px 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-clock .ul-prata li {
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-clock button {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
+
+section.products-clock button:hover {
+    border: 3px solid rgb(5, 160, 0);
+
+}
+
+/*clock*/
+
+
+
+/*rings*/
+
+section.products-rings {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 5px solid black;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(90deg, rgba(0, 9, 3, 0.7847514005602241) 0%, rgba(0, 6, 2, 0.6839110644257703) 50%, rgba(0, 0, 0, 0.6951155462184874) 100%);
+}
+
+section.products-rings .ul-ouro {
+    margin: 40px 40px 40px;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-rings .ul-ouro li {
+    border: 2px solid rgb(211, 173, 6);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+section.products-rings img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.products-rings img:hover {
+    transform: scale(2.1);
+}
+
+section.products-rings .ul-prata {
+    gap: 20px;
+    margin: 40px 40px 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-rings .ul-prata li {
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-rings button {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
+
+section.products-rings button:hover {
+    border: 3px solid rgb(5, 160, 0);
+}
+
+/*rings*/
+
+
+/*bracelets*/
+
+section.products-bracelets {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 5px solid black;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(90deg, rgba(0, 9, 3, 0.7847514005602241) 0%, rgba(0, 6, 2, 0.6839110644257703) 50%, rgba(0, 0, 0, 0.6951155462184874) 100%);
+}
+
+section.products-bracelets .ul-ouro {
+    margin: 40px 40px 40px;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-bracelets .ul-ouro li {
+    border: 2px solid rgb(211, 173, 6);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-bracelets img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.products-bracelets img:hover {
+    transform: scale(2.1);
+}
+
+section.products-bracelets .ul-prata {
+    gap: 20px;
+    margin: 40px 40px 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-bracelets .ul-prata li {
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-bracelets button {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
+
+section.products-bracelets button:hover {
+    border: 3px solid rgb(5, 160, 0);
+}
+
+
+/*bracelets*/
+
+
+/*chains*/
+
+section.products-chains {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 5px solid black;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, rgba(0, 9, 3, 0.7847514005602241) 0%, rgba(0, 6, 2, 0.6839110644257703) 50%, rgba(0, 0, 0, 0.6951155462184874) 100%);
+}
+
+section.products-chains .ul-ouro {
+    margin: 40px 40px 40px;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-chains .ul-ouro li {
+    border: 2px solid rgb(211, 173, 6);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-chains img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.products-chains img:hover {
+    transform: scale(2.1);
+
+
+}
+
+
+section.products-chains .ul-prata {
+    gap: 20px;
+    margin: 40px 40px 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+section.products-chains .ul-prata li {
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section.products-chains button {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
+
+section.products-chains button:hover {
+    border: 3px solid rgb(5, 160, 0);
+}
+
+/*chains*/
+
+
+
+
+
+article.banners-quite1 {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    height: 500px;
+    gap: 100px;
+}
+
+article.banners-quite1 ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    margin: 160px 160px 160px;
+
+}
+
+article.banners-quite1 li {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 260px;
+    margin: auto;
+    justify-content: left;
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
+
+.box-img img {
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    border-radius: 7px;
+}
+
+
+.img-ul {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+main.banners-quite2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    margin: 0 0 40px;
+    border: 5px solid rgb(155, 155, 155);
+    border-left: 0;
+    border-right: 0;
+}
+
+main.banners-quite2 div {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 40px 0;
+
+}
+
+main.banners-quite2 h3 {
+    font-size: 30px;
+    margin: 50px;
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+main.banners-quite2 img {
+    width: 500px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+
+
+
+footer {
+    display: flex;
+    border: 3px solid rgb(211, 173, 6);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-image: url(./img/fundo-footer.jpg);
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+footer h2 {
+    color: rgb(255, 254, 253);
+    font-size: 20px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+
+footer img {
+    margin: 5px 10px 0;
+    width: 30px;
+    height: 30px;
+}
+
+footer #linck-whatsapp {
+    display: none;
+}
+
+
+.img-ring {
+    width: 80px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+    section.products-chains .ul-ouro {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-chains .ul-prata {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-bracelets .ul-ouro {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-bracelets .ul-prata {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-rings .ul-ouro {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-rings .ul-prata {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-clock .ul-ouro {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    section.products-clock .ul-prata {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+
+
+
+    .box {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .box-img img {
+        height: 200px;
+        width: 300px;
+    }
+
+    article.banners-quite1 ul {
+        grid-template-columns: 130px 130px 130px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1445px) {
+    
+    section.products-chains .ul-ouro {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-chains .ul-prata {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-bracelets .ul-ouro {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-bracelets .ul-prata {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-rings .ul-ouro {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-rings .ul-prata {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-clock .ul-ouro {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-clock .ul-prata {
+        grid-template-columns: 120px 120px 120px;
+        height: 60px;
+    }
+
+    section.products-chains button {
+        font-size: 12px;
+       
+    }
+
+    section.products-bracelets button {
+        font-size: 12px;
+    }
+
+    section.products-rings button {
+        font-size: 12px;
+    }
+
+    section.products-clock button {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1141px) {
+
+    nav {
+        gap: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 1096px) {
+
+    article.banners-quite1 {
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    article.banners-quite1 ul {
+        grid-template-columns: 100px 100px 100px;
+        margin: 0 0 0;
+    }
+
+    main.banners-quite2 h3 {
+        font-size: 20px;
+    }
+
+    main.banners-quite2 img {
+        width: 400px;
+    }
+
+    .box {
+        margin-left: 35%;
+        margin-top: 10px;
+        margin: 0 0 20px;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    section.products-chains {
+        flex-direction: column;
+        margin: 10px 200px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 350px;
+        border: 2px solid black;
+    }
+
+    section.products-bracelets {
+        flex-direction: column;
+        margin: 10px 200px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-rings {
+        flex-direction: column;
+        margin: 10px 200px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-clock {
+        flex-direction: column;
+        margin: 10px 200px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+}
+
+
+
+@media screen and (max-width: 855px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    main.banners-quite2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px 10px;
+    }
+
+    main.banners-quite2 img {
+        width: 300px;
+    }
+
+    nav button {
+        font-size: 20px;
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 836px) {
+    
+    section.products-chains {
+        flex-direction: column;
+        margin: 10px 100px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 350px;
+        border: 2px solid black;
+    }
+
+    section.products-bracelets {
+        flex-direction: column;
+        margin: 10px 100px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-rings {
+        flex-direction: column;
+        margin: 10px 100px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-clock {
+        flex-direction: column;
+        margin: 10px 100px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 717px) {
+
+    header img {
+        width: 50px;
+    }
+
+    header h1 {
+        font-size: 15px;
+    }
+
+
+    main.banners-quite2 img {
+        margin-top: 50px;
+    }
+
+    main.banners-quite2 h3 {
+        font-size: 15px;
+    }
+
+    body .linck-whatsapp {
+        width: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 683px) {
+
+    section.products-chains {
+        flex-direction: column;
+        margin: 10px 10px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 350px;
+        border: 2px solid black;
+    }
+
+    section.products-bracelets {
+        flex-direction: column;
+        margin: 10px 10px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-rings {
+        flex-direction: column;
+        margin: 10px 10px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+
+    section.products-clock {
+        flex-direction: column;
+        margin: 10px 10px 20px;
+        height: 1100px;
+        width: 500px;
+        gap: 370px;
+        border: 2px solid black;
+    }
+}
+
+
+
+@media screen and (max-width: 574px) {
+
+    header {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+
+    section.banners p {
+        font-size: 30px;
+    }
+
+    footer h2 {
+        font-size: 17px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+
+
+    section.products-chains { 
+        width: 400px;
+        height: 4900px;
+        gap: 2300px;
+
+    }
+
+    section.products-bracelets { 
+        width: 400px;
+        height: 4900px;
+        gap: 2300px;
+    }
+
+    section.products-rings { 
+        width: 400px;
+        height: 4900px;
+        gap: 2300px;
+    }
+
+    section.products-clock { 
+        width: 400px;
+        height: 4900px;
+        gap: 2300px;
+    }
+
+
+
+    section.products-chains .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        
+    }
+
+    section.products-chains .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+
+    section.products-rings .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    section.products-rings .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+
+    section.products-bracelets .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        
+    }
+
+    section.products-bracelets  .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    section.products-clock .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    section.products-clock .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+
+    section.products-chains img:hover {
+        transform: none;
+    }
+
+    section.products-bracelets  img:hover {
+        transform: none;
+    }
+
+    section.products-clock  img:hover {
+        transform: none;
+    }
+
+    section.products-rings  img:hover {
+        transform: none;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 449px) {
+
+
+    section.products-chains { 
+        width: 300px;
+        height: 3800px;
+        gap: 1700px;
+
+    }
+
+    section.products-bracelets { 
+        width: 300px;
+        height: 3800px;
+        gap: 1700px;
+    }
+
+    section.products-rings { 
+        width: 300px;
+        height: 3800px;
+        gap: 1700px;
+    }
+
+    section.products-clock { 
+        width: 300px;
+        height: 3800px;
+        gap: 1700px;
+    }
+
+
+    section.products-chains .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+    section.products-chains .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+
+
+    section.products-bracelets .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+    section.products-bracelets .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+
+    
+    section.products-rings  .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+    section.products-rings  .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+     
+    
+    section.products-clock  .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+     
+    section.products-clock  .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+
+
+
+    article.banners-quite1 ul {
+        grid-template-columns: 80px 80px 80px;
+        gap: 10px;
+    }
+
+    nav button {
+        font-size: 15px;
+    }
+
+    main.banners-quite2 img {
+        width: 200px;
+
+    }
+
+    main.banners-quite2 {
+        margin: 0 0 50px;
+
+    }
+
+    main.banners-quite2 h3 {
+        margin: 40px 40px 70px;
+    }
+
+
+    section.banners p {
+        font-size: 20px;
+    }
+
+    .box {
+        width: 200px;
+        margin-left: 35%;
+        margin-top: 10px;
+        margin: 0 0 20px;
+
+    }
+
+    .box-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 360px) {
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    nav button {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 345px) {
+
+    
+    section.products-chains { 
+        width: 230px;
+        height: 3100px;
+        gap: 1400px;
+
+    }
+
+    section.products-bracelets { 
+        width: 230px;
+        height: 3100px;
+        gap: 1400px;
+    }
+
+    section.products-rings { 
+        width: 230px;
+        height: 3100px;
+        gap: 1400px;
+    }
+
+    section.products-clock { 
+        width: 230px;
+        height: 3100px;
+        gap: 1400px;
+    }
+
+
+
+    section.products-chains .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+    section.products-chains .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+
+
+    section.products-bracelets .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+    section.products-bracelets .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+
+
+    
+    section.products-rings  .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+    section.products-rings  .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+     
+    
+    section.products-clock  .ul-ouro {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+     
+    section.products-clock  .ul-prata {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+    }
+
+
+
+
+
+    .linck-whatsapp {
+        display: none;
+    }
+
+    footer {
+        height: 200px;
+
+    }
+
+    footer #linck-whatsapp {
+        display: grid;
+        width: 170px;
+        height: auto;
+    
+    }
+
+    footer #linck-whatsapp:hover {
+        width: 150px;
+    }
+}
+
+
