@@ -582,9 +582,7 @@ footer #linck-whatsapp {
     }
 
 
-
-
-    .box {
+.box {
         height: 200px;
         width: 300px;
 
@@ -849,36 +847,40 @@ footer #linck-whatsapp {
 
     section.products-chains {
         flex-direction: column;
-        margin: 10px 10px 20px;
+        align-items: center;
+        margin: 5px 0px;
         height: 1100px;
-        width: 500px;
+        width: 100%;
         gap: 350px;
         border: 2px solid black;
     }
 
     section.products-bracelets {
         flex-direction: column;
-        margin: 10px 10px 20px;
+        align-items: center;
+        margin: 5px 0px;
         height: 1100px;
-        width: 500px;
+        width: 100%;
         gap: 370px;
         border: 2px solid black;
     }
 
     section.products-rings {
         flex-direction: column;
-        margin: 10px 10px 20px;
+        align-items: center;
+        margin: 5px 0px;
         height: 1100px;
-        width: 500px;
+        width: 100%;
         gap: 370px;
         border: 2px solid black;
     }
 
     section.products-clock {
         flex-direction: column;
-        margin: 10px 10px 20px;
+        align-items: center;
+        margin: 5px 0px;
         height: 1100px;
-        width: 500px;
+        width: 100%;
         gap: 370px;
         border: 2px solid black;
     }
@@ -887,6 +889,8 @@ footer #linck-whatsapp {
 
 
 @media screen and (max-width: 574px) {
+
+   
 
     header {
         gap: 20px;
@@ -915,26 +919,38 @@ footer #linck-whatsapp {
 
 
     section.products-chains { 
-        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+        width: 100%;
         height: 4900px;
         gap: 2300px;
 
     }
 
     section.products-bracelets { 
-        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+        width: 100%;
         height: 4900px;
         gap: 2300px;
     }
 
     section.products-rings { 
-        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+        width: 100%;
         height: 4900px;
         gap: 2300px;
     }
 
     section.products-clock { 
-        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+        width: 100%;
         height: 4900px;
         gap: 2300px;
     }
@@ -995,19 +1011,19 @@ footer #linck-whatsapp {
 
 
     section.products-chains img:hover {
-        transform: none;
+        transform: scale(1.4);
     }
 
     section.products-bracelets  img:hover {
-        transform: none;
+        transform: scale(1.4);
     }
 
     section.products-clock  img:hover {
-        transform: none;
+        transform: scale(1.4);
     }
 
     section.products-rings  img:hover {
-        transform: none;
+        transform: scale(1.4);
     }
 
 
@@ -1019,26 +1035,26 @@ footer #linck-whatsapp {
 
 
     section.products-chains { 
-        width: 300px;
+        width: 100%;
         height: 3800px;
         gap: 1700px;
 
     }
 
     section.products-bracelets { 
-        width: 300px;
+        width: 100%;
         height: 3800px;
         gap: 1700px;
     }
 
     section.products-rings { 
-        width: 300px;
+        width: 100%;
         height: 3800px;
         gap: 1700px;
     }
 
     section.products-clock { 
-        width: 300px;
+        width: 100%;
         height: 3800px;
         gap: 1700px;
     }
@@ -1173,28 +1189,28 @@ footer #linck-whatsapp {
 
     
     section.products-chains { 
-        width: 230px;
-        height: 3100px;
-        gap: 1400px;
+        width: 100%;
+        height: 4300px;
+        gap: 2000px;
 
     }
 
     section.products-bracelets { 
-        width: 230px;
-        height: 3100px;
-        gap: 1400px;
+        width: 100%;
+        height: 4300px;
+        gap: 2000px;
     }
 
     section.products-rings { 
-        width: 230px;
-        height: 3100px;
-        gap: 1400px;
+        width: 100%;
+        height: 4300px;
+        gap: 2000px;
     }
 
     section.products-clock { 
-        width: 230px;
-        height: 3100px;
-        gap: 1400px;
+        width: 100%;
+        height: 4300px;
+        gap: 2000px;
     }
 
 
@@ -1202,14 +1218,14 @@ footer #linck-whatsapp {
     section.products-chains .ul-ouro {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
     }
 
     section.products-chains .ul-prata {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
     }
 
@@ -1218,14 +1234,14 @@ footer #linck-whatsapp {
     section.products-bracelets .ul-ouro {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
     }
 
     section.products-bracelets .ul-prata {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
     }
 
 
@@ -1233,14 +1249,13 @@ footer #linck-whatsapp {
     section.products-rings  .ul-ouro {
         display: flex;
         flex-direction: column;
-        width: 150px;
-        
+        width: 230px;
     }
 
     section.products-rings  .ul-prata {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
     }
 
@@ -1249,7 +1264,7 @@ footer #linck-whatsapp {
     section.products-clock  .ul-ouro {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
     }
 
@@ -1257,8 +1272,24 @@ footer #linck-whatsapp {
     section.products-clock  .ul-prata {
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 230px;
         
+    }
+
+    section.products-chains img:hover {
+        transform: scale(1.3);
+    }
+
+    section.products-bracelets  img:hover {
+        transform: scale(1.3);
+    }
+
+    section.products-clock  img:hover {
+        transform: scale(1.3);
+    }
+
+    section.products-rings  img:hover {
+        transform: scale(1.3);
     }
 
 
@@ -1271,12 +1302,20 @@ footer #linck-whatsapp {
 
     footer {
         height: 200px;
+        align-items: center;
 
+    }
+
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     footer #linck-whatsapp {
         display: grid;
-        width: 170px;
+        width: 130px;
         height: auto;
     
     }
